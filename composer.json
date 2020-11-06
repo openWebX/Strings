@@ -1,0 +1,22 @@
+{
+  "name": "openwebx/strings",
+  "description": "several often used string helpers for >=php 7.x" ,
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Jens Reinemuth",
+      "email": "jens@reinemuth.rocks"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "openWebX\\Strings\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "cocur/slugify": "^4.0"
+  }
+}
