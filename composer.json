@@ -15,8 +15,10 @@
     }
   },
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.4",
     "ext-json": "*",
-    "cocur/slugify": "^4.0"
+    "cocur/slugify": "^4.0",
+    "ext-mbstring": "*",
+    "ext-iconv": "*"
   }
 }
